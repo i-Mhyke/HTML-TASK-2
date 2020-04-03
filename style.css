@@ -1,0 +1,99 @@
+body{
+	background-color: #ADD8E6;
+	font-family: 'Baloo Thambi 2', sans-serif;
+}
+.container{
+	display: grid;
+	width: 100%;
+	justify-content: center;
+}
+img {
+	width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+.card{
+	width: 60%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #ffffff;
+	border: 2px solid white;
+	border-radius: 20px 20px 20px 0px;
+	padding: 20px;
+	filter:drop-shadow(8px 8px 10px gray);
+}
+.formHeader{
+	margin: 10px;
+	padding-bottom: 15px;
+	text-align: center
+}
+h2,p{
+	margin: 0;
+	display: inline-block;
+}
+h2{
+	color: #083e9e;
+}
+
+input{
+	width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border:none;
+    border-radius: 5px;
+    background-color: #edf2f7;
+}
+input:focus{
+	outline: none;
+}
+input[type=submit]{
+	width: 100%;
+	padding: 20px 36px;
+	background-color: blue;
+	color: white;
+	border: 1px solid blue;
+	border-radius: 10px 10px 10px 0px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+input[type=submit]:hover{
+	background-color: #062863;
+}
+.loginMenu{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+.loginMenu a{
+	text-decoration: none;
+	color: #062863;
+}
+.loginMenu a:hover{
+	color: #5c5c5c;
+}
+.form-group{
+	margin-top: 30px;
+	font-size: 14px;
+	color: #667080;
+	font-weight: bold;
+}
+.scrollable{
+	overflow-y: auto; !important
+}
+
+@media (max-width: 767px){
+	img{
+		width: 50%;
+	}
+	.card{width: 80%; 
+		display: block;
+		 margin-left: auto;
+		 margin-right: auto;
+    	padding: 30px;};
+}
