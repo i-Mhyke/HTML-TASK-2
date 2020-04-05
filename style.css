@@ -46,6 +46,7 @@ input{
     border:none;
     border-radius: 5px;
     background-color: #edf2f7;
+    font-family: 'Baloo Thambi 2', sans-serif;
 }
 input:focus{
 	outline: none;
@@ -87,8 +88,7 @@ input[type=submit]:hover{
 	overflow-y: auto; !important
 }
 
-::-webkit-input-placeholder {
-  font-family: 'Baloo Thambi 2', sans-serif;
+input::placeholder {
   font-size: 14px;
   color: red;
 }
