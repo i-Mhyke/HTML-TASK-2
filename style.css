@@ -90,6 +90,7 @@ input[type=submit]:hover{
 
 input::placeholder {
   font-size: 14px;
+  color: grey;
   font-weight: bold;
   font-family: 'Baloo Thambi 2', sans-serif;
   letter-spacing: 1px;
