@@ -46,7 +46,7 @@ input{
     border:none;
     border-radius: 5px;
     background-color: #edf2f7;
-    font-family: 'Baloo Thambi 2', sans-serif;
+    
 }
 input:focus{
 	outline: none;
@@ -90,7 +90,9 @@ input[type=submit]:hover{
 
 input::placeholder {
   font-size: 14px;
-  color: red;
+  font-weight: bold;
+  font-family: 'Baloo Thambi 2', sans-serif;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 767px){
